@@ -10,6 +10,8 @@
 
 The Hail resources necessary for running this tutorial are located in the resources folder. 
 
+(Based on Hail-0.2-7a98b6a65d44)
+
 After downloading them, navigate to the Workspace/Users section of the notebook, and then to your user folder.
 
 ![workspace](https://raw.githubusercontent.com/mptrepanier/spark-saturday-advanced-hail/master/readme-images/workspace.PNG)
