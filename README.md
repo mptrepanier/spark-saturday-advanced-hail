@@ -10,7 +10,7 @@
 
 The Hail resources necessary for running this tutorial are located in the resources folder. 
 
-(Based on Hail-0.2-7a98b6a65d44)
+(Based on Hail-0.2-7a98b6a65d44. For other builds, please see resources in Hail's artifact bucket located at ` gs://hail-common/builds`)
 
 After downloading them, navigate to the Workspace/Users section of the notebook, and then to your user folder.
 
@@ -41,3 +41,19 @@ spark.executor.extraClassPath ./hail-all-spark.jar
 ```
 
 Finally, click create cluster.
+
+### Importing the Hail Notebook
+
+*Please note that this notebook was adapted from https://hail.is/docs/stable/tutorials/01-genome-wide-association-study.html for use on Databricks.*
+
+* Click the "Workspace" button on the left-hand side of your screen.
+* Navigate to your user tab as before.
+* Right click and select "import."
+* Select URL and paste the URL to the `.ipynb` into the input: https://github.com/mptrepanier/spark-saturday-advanced-hail/blob/master/hail-tutorial-spark-saturday-advanced.ipynb
+
+### Useful Links
+
+* Hail, the Spark-based genomic analysis software: https://hail.is
+* Spark 2.1.0 documentation: http://spark.apache.org/docs/2.2.0
+* Anaconda documentation: https://docs.continuum.io/anaconda/navigator/tutorials/
+* Databricks documentation: http://docs.databricks.com
