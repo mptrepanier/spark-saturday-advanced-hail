@@ -54,6 +54,6 @@ Finally, click create cluster.
 ### Useful Links
 
 * Hail, the Spark-based genomic analysis software: https://hail.is
-* Spark 2.1.0 documentation: http://spark.apache.org/docs/2.2.0
+* Spark 2.2.0 documentation: http://spark.apache.org/docs/2.2.0
 * Anaconda documentation: https://docs.continuum.io/anaconda/navigator/tutorials/
 * Databricks documentation: http://docs.databricks.com
